@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index</title>
+        <h1>Integrantes:</h1>
+        <ul><li><p>Daniela Krasny</p></li>
+        <p><li>Filipe Gomes</p></li>
+        <p><li>Shanara Oliveira</p></li>
+        <p><li>Igor Henrique</p></li></ul>
+    </head>
+    <body>
+        <h2>Questões</h2>
+        <p>A. O atributo placeholder serve para indicar ao navegador o texto que deverá aparecer escrito no campo do formulário.</br>
+
+            <br />B. O atributo checked é usado para indicar se o item está selecionado por padrão.</br>
+
+            <br />C. O atributo value é obrigatório, por que ele especifica o valor do INPUT quando este botão é selecionado.</br>
+
+            <br />D. Ao colocar o Atributo "type="radio" na tag input, o formulário mostrará opções a serem selecionadas, podendo escolher somente uma.</br>
+
+            <br />E. A tag label define um rótulo para muitos elementos de formulário. 
+        </br>O label elemento é útil para usuários de leitores de tela, porque o leitor de tela lerá o rótulo em voz alta quando o usuário focar no elemento de entrada. O elemento também ajuda os usuários que têm dificuldade em clicar em regiões muito pequenas (como botões de opção ou caixas de seleção) - porque quando o usuário clica no texto dentro do label elemento, ele alterna o botão de opção/caixa de seleção. O for atributo da tag label deve ser igual ao atributo do input elemento para uni-los.</br>
+            
+        <br />G.Esse é um atributo booleano usado para indicar que um determinando campo de formulário é obrigatório para o envio do mesmo. </br>
+            Ao adicionar esse atributo a um campo de formulário, o navegador obriga o usuário a inserir dados naquele campo antes de enviar o formulário.</br>
+
+            <br />H. O atributo action define o local (uma URL) em que os dados recolhidos do formulário devem ser enviados. </br>
+            
+            <br />I. O atributo method define o método HTTP com que o formulário HTML irá lidar com os dados recebidos.</br>
+            Os valores possíveis para o atributo "method" são:</br>
+            "GET": Este é o valor padrão. Quando o formulário é enviado com o método GET, os dados do formulário são anexados à URL de destino na forma de uma string de consulta. Esse método é geralmente usado para solicitar recursos do servidor, como páginas HTML ou dados JSON.</br>
+            "POST": Quando o formulário é enviado com o método POST, os dados do formulário são enviados no corpo da solicitação HTTP. Esse método é geralmente usado para enviar informações confidenciais ou grandes quantidades de dados, como dados de formulário de login ou upload de arquivos.</br>
+            "PUT": O método PUT é usado para atualizar um recurso existente no servidor.</br>
+            "DELETE": O método DELETE é usado para excluir um recurso do servidor.</br>
+            Além disso, existem outros métodos HTTP como "PATCH", "HEAD", "OPTIONS", "CONNECT" e "TRACE", mas eles são menos comuns em formulários HTML e geralmente são usados em APIs RESTful.</br>
+            
+            <br />J. Com o atributo "type" definido como "password", o valor digitado no campo de senha será ocultado com pontos ou asteriscos, em vez de aparecer como texto legível na página ou na barra de endereços do navegador.</br>
+            
+            <br />K. Para enviar um formulário que contenha um arquivo para o servidor, o valor do atributo "method" na tag form deve ser definido como "POST". Isso ocorre porque o método HTTP "POST" é mais adequado para enviar dados binários, como arquivos, do que o método "GET".</br>
+            
+            <br />L. As tags fieldset e legend são usadas em conjunto para criar um grupo de elementos de formulário relacionados e exibir um título ou legenda para esse grupo.</br>
+            A tag fieldset é usada para envolver um conjunto de elementos de formulário relacionados em um bloco ou caixa. Isso ajuda a organizar e agrupar os elementos relacionados juntos. A tag fieldset não tem atributos específicos, mas é comum usá-la em conjunto com a tag legend.</br>
+            A tag legend é usada dentro da tag fieldset para exibir uma legenda ou título para o grupo de elementos de formulário relacionados. A legenda é exibida na parte superior do grupo de elementos e pode ser usada para fornecer uma descrição breve do que os elementos de formulário representam ou para identificar o grupo de elementos.</br>
+        </p>
+        <p style="font-weight:bold;">Clique <a href="../formularioeindex/Formulario.html" target="_blank"> aqui</a> para redirecionar ao formulário.</p>
+        
+    </body>
+</html>
